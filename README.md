@@ -26,5 +26,5 @@ As the size of models and figures are large,  we did not upload in this repo. If
 `dataBulk` contains the sepsis cohorts of microarray and bulk RNA-seq used in this study for the evaluation. The data can be downloaded from Gene Expression Omnibus (GEO) database.   
 `dataSC` contains the raw data and the processed data of the single-cell RNA-seq data of sepsis.   
 `model` contains the model called trained on single-cell RNA-seq data and the model fine-tuned on bulk RNA data.   
-
+    
 This framework can be generalized to rare disease diagnosis and phenotype detection that has only a few samples available. The details of the study can be found in our paper.
