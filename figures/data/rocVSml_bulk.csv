@@ -1,0 +1,55 @@
+,Cohort,AUC,Model
+0,GSE4607,0.988271605,CapNet+Trans
+1,GSE8121,0.965555556,CapNet+Trans
+2,GSE9692,0.955555556,CapNet+Trans
+3,GSE13904,0.948183761,CapNet+Trans
+4,GSE26378,1,CapNet+Trans
+5,GSE28750,1,CapNet+Trans
+6,GSE4607,0.925,K-Nearest Neighbors
+7,GSE8121,0.5,K-Nearest Neighbors
+8,GSE9692,0.5,K-Nearest Neighbors
+9,GSE13904,0.5,K-Nearest Neighbors
+10,GSE26378,0.933507549,K-Nearest Neighbors
+11,GSE28750,1,K-Nearest Neighbors
+12,GSE4607,0.986111111,Logistic Regression
+13,GSE8121,0.7,Logistic Regression
+14,GSE9692,0.7,Logistic Regression
+15,GSE13904,0.68482906,Logistic Regression
+16,GSE26378,0.975609756,Logistic Regression
+17,GSE28750,0.95,Logistic Regression
+18,GSE4607,0.990740741,Linear SVM
+19,GSE8121,0.5,Linear SVM
+20,GSE9692,0.5,Linear SVM
+21,GSE13904,0.5,Linear SVM
+22,GSE26378,0.969512195,Linear SVM
+23,GSE28750,0.975,Linear SVM
+24,GSE4607,0.990740741,Poly SVM
+25,GSE8121,0.5,Poly SVM
+26,GSE9692,0.5,Poly SVM
+27,GSE13904,0.5,Poly SVM
+28,GSE26378,0.969512195,Poly SVM
+29,GSE28750,0.95,Poly SVM
+30,GSE4607,0.943518519,DecisionTree
+31,GSE8121,0.516666667,DecisionTree
+32,GSE9692,0.516666667,DecisionTree
+33,GSE13904,0.519230769,DecisionTree
+34,GSE26378,0.909698026,DecisionTree
+35,GSE28750,0.875,DecisionTree
+36,GSE4607,0.943518519,Random Forest
+37,GSE8121,0.5,Random Forest
+38,GSE9692,0.5,Random Forest
+39,GSE13904,0.5,Random Forest
+40,GSE26378,0.970092915,Random Forest
+41,GSE28750,1,Random Forest
+42,GSE4607,0.921296296,Naive Bayes
+43,GSE8121,0.5,Naive Bayes
+44,GSE9692,0.5,Naive Bayes
+45,GSE13904,0.5,Naive Bayes
+46,GSE26378,0.904181185,Naive Bayes
+47,GSE28750,0.9,Naive Bayes
+48,GSE4607,0.471296296,Quadratic Discriminant Analysis
+49,GSE8121,0.483333333,Quadratic Discriminant Analysis
+50,GSE9692,0.416666667,Quadratic Discriminant Analysis
+51,GSE13904,0.480769231,Quadratic Discriminant Analysis
+52,GSE26378,0.545876887,Quadratic Discriminant Analysis
+53,GSE28750,0.7,Quadratic Discriminant Analysis

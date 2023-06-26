@@ -1,0 +1,1 @@
+This folder stores the model called 'weightmodel' trained on single-cell RNA-seq data and the model called 'transferred_model' fine-tuned on bulk RNA data.
