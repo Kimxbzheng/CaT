@@ -1,6 +1,21 @@
 # CaT
 An explainable capsulating architecture with transformer for sepsis detection transferring from single-cell RNA sequencing
 
+## Installation
+#### Requirements
+- Linux or macOS with Anaconda
+- Python ≥ 3.7
+- Tensorflow-gpu = 2.4.1
+- GPU is recommended
+
+#### Clone and create virtual environment
+```
+git clone https://github.com/Kimxbzheng/CaT.git
+cd CaT
+conda env create -f environment.yml
+```
+Copy your single-cell RNA-seq data into `dataSC` folder and bulk RNA data into `dataBulk` folder. Then follow the procedures to preprocess the data and train your own CaT.
+
 ## Data PreProcessing 
 The data preprocessing procedures were under 'data preprocessing' folder.
 
@@ -9,7 +24,7 @@ The data preprocessing procedures were under 'data preprocessing' folder.
 `deleteSparseData.py` changes the Sparse Threshold during experiment.   
 `read_specgenes.py` selects specific genes for comparison with other biomarkers.
 
-## Building CaT
+## Building and Training CaT
 CaT was built based on capsule network and transformer. It was trained on single-cell RNA-seq data and then transferred to bulk RNA data for clinical practice. The details of building and training CaT can be found below.
 
 `IntersectSC&Bulk.ipynb` extracts the common genes included in the scRNA-seq data and bulk RNA data.   
