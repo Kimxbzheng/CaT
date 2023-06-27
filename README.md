@@ -17,7 +17,7 @@ conda env create -f environment.yml
 Copy your single-cell RNA-seq data into `dataSC` folder and bulk RNA data into `dataBulk` folder. Then follow the procedures to preprocess the data and train your own CaT.
 
 ## Data PreProcessing 
-The data preprocessing procedures were under 'data preprocessing' folder.
+The data preprocessing procedures were under `data preprocessing` folder.
 
 `readdata.py` contains related codes for data preprocessing stage.   
 `changefdrlimit.py` changes the Fdr Threshold during experiment.   
