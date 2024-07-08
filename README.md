@@ -1,6 +1,6 @@
 # scCaT
 An explainable capsulating architecture for sepsis diagnosis transferring from single-cell RNA sequencing
-![Image text](https://github.com/DM0815/scCaT/main/framework.jpg)
+![Image text](https://github.com/DM0815/scCaT/blob/main/Framework.jpg)
 
 ## Prerequisite
 * python 3.7.12
