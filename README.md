@@ -52,23 +52,24 @@ The data preprocessing procedures were under 'data preprocessing' folder.
 `./data/dataPreprocessing/deleteSparseData.py` changes the Sparse Threshold during experiment.   
 `./data/dataPreprocessing/read_specgenes.py` selects specific genes for comparison with other biomarkers.
 
-## Building CaT
-CaT was built based on capsule network and transformer. It was trained on single-cell RNA-seq data and then transferred to bulk RNA data for clinical practice. The details of building and training CaT can be found below.
+## Building scCaT
+scCaT was built based on capsule network and transformer. It was trained on single-cell RNA-seq data and then transferred to bulk RNA data for clinical practice. The details of building and training scCaT can be found below.
 
 `./code/IntersectSC&Bulk.ipynb` extracts the common genes included in the scRNA-seq data and bulk RNA data.   
-`./code/trainCaT.ipynb` builds the model and trains the model on scRNA-seq.   
-`./code/CompBiomarker_onSC.ipynb` compares CaT to the existing biomarkers and traditional machine learning models.   
-`./code/TransferToBulk.ipynb` transferrs CaT to bulk RNA data and evaluates its performance on validation cohorts.   
+`./code/trainCaT.ipynb` builds and trains the model on scRNA-seq.   
+`./code/CompBiomarker_onSC.ipynb` compares scCaT to the existing biomarkers and traditional machine learning models.   
+`./code/TransferToBulk.ipynb` transferrs scCaT to bulk RNA data and evaluates its performance on validation cohorts.   
 `./code/Rotation_testing.ipynb` performs transferring on one cohorts and testing on the other cohorts.   
 `./code/visualization.ipynb` includes the visualization of the primary capsules, the capsule outputs, and each of the capsule dimensions.  
 
 ## Data and Results contained in the folders
-As the size of models and figures are large,  we did not upload in this repo. If you are interested in our method, please feel free to contact me for the model at xbzheng@gbu.edu.cn.
+As the size of models and figures are large,  we did not upload in this repo. If you are interested in our method, please download from google drive XXX. 
+All the data can be access from the accession number stated in our paper.
 
-`biomarkers` contains the results of the existing biomarkers and traditional machine learning models on scRNA-seq data.   
+`biomarkers` contains the predicted results of the existing biomarkers and traditional machine learning models on scRNA-seq data.   
 `./data/dataBulk` contains the sepsis cohorts of microarray and bulk RNA-seq used in this study for the evaluation. The data can be downloaded from Gene Expression Omnibus (GEO) database.   
-`./data/dataSC` contains the raw data and the processed data of the single-cell RNA-seq data of sepsis.   
-`modelsave` contains the model called trained on single-cell RNA-seq data and the model fine-tuned on bulk RNA data.   
+`./data/dataSC` contains the raw data and the processed data of the single-cell RNA-seq data of sepsis.
+`modelsave` contains the model called trained on single-cell RNA-seq data and the model fine-tuned on bulk RNA data.
 
 
     
