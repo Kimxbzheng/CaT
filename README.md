@@ -70,7 +70,6 @@ CaT was built based on capsule network and transformer. It was trained on single
 As the size of models and figures are large,  we did not upload in this repo. If you are interested in our method, please feel free to contact me for the model at xbzheng@gbu.edu.cn.
 
 `biomarkers` contains the results of the existing biomarkers and traditional machine learning models on scRNA-seq data.   
-`transfer_results` contains the results of bulking data results using scCaT. 
 `./data/dataBulk` contains the sepsis cohorts of microarray and bulk RNA-seq used in this study for the evaluation. The data can be downloaded from Gene Expression Omnibus (GEO) database.   
 `./data/dataSC` contains the raw data and the processed data of the single-cell RNA-seq data of sepsis.   
 `modelsave` contains the model called trained on single-cell RNA-seq data and the model fine-tuned on bulk RNA data.   
