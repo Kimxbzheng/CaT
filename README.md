@@ -41,7 +41,7 @@ python -m pip install tensorflow-gpu==2.4.1
 python -m ipykernel install --user --name=scCaT --display-name scCaT
 ```
 
-6.Run the './code/trainCaT.ipynb' file to review the code. Other ipynb files can be found by name to understand the corresponding experiments
+6.Use jupyter notebook and run './code/trainCaT.ipynb' to review the code. Other ipynb files can be found by name to understand the corresponding experiments
 
 
 ## Data PreProcessing 
