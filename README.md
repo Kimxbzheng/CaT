@@ -28,25 +28,20 @@ conda env list
 conda activate scCaT
 ```
 
-4.To exit the current environment, use the following command:
 
-```cmd
-conda deactivate
-```
-
-5.Install tensorflow-gpu==2.4.1:
+4.Install tensorflow-gpu==2.4.1:
 
 ```
 python -m pip install tensorflow-gpu==2.4.1
 ```
 
-6.Add the current environment to the Jupyter Notebook kernel. Note that you should be in the "base" environment when running the following command:
+5.Add the current environment to the Jupyter Notebook kernel. Note that you should be in the "base" environment when running the following command:
 
 ```
 python -m ipykernel install --user --name=scCaT --display-name scCaT
 ```
 
-7.Run the './code/trainCaT.ipynb' file to review the code. Other ipynb files can be found by name to understand the corresponding experiments
+6.Run the './code/trainCaT.ipynb' file to review the code. Other ipynb files can be found by name to understand the corresponding experiments
 
 
 ## Data PreProcessing 
