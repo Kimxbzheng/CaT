@@ -10,7 +10,7 @@ An explainable capsulating architecture for sepsis diagnosis transferring from s
 * R package (precrec 0.14.4, reticulate 1.34.0)
   
 ## Getting started
-1.Use Anaconda to create a Python virtual environment. Here, we will create a Python 3.7 environment named `test`:
+1.Use Anaconda to create a Python virtual environment. Here, we will create a Python 3.7 environment named `scCaT`:
 
 ```cmd
 conda create -n scCaT python=3.7.12
