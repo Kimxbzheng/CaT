@@ -5,6 +5,7 @@ An explainable capsulating architecture for sepsis diagnosis transferring from s
 ## Prerequisite
 * python 3.7.12
 * Tensorflow 2.4.1
+* cudatoolkit 11.8
 * R 4.3
 * R package (precrec 0.14.4, reticulate 1.34.0)
   
