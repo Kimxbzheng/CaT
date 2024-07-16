@@ -63,7 +63,7 @@ scCaT was built based on capsule network and transformer. It was trained on sing
 `./code/visualization.ipynb` includes the visualization of the primary capsules, the capsule outputs, and each of the capsule dimensions.  
 
 ## Data and Results contained in the folders
-As the size of models and figures are large,  we did not upload in this repo. If you are interested in our method, please download from google drive XXX. 
+As the size of models and figures are large,  we did not upload in this repo. If you are interested in our method, please download from google drive. Bulk RNA cohorts: https://drive.google.com/drive/folders/133yZoL_gmh2HemN7RHiIE8544atFkWHR?usp=drive_link. 
 All the data can be access from the accession number stated in our paper.
 
 `./biomarkers` contains the predicted results of the existing biomarkers and traditional machine learning models on scRNA-seq data.   
