@@ -63,13 +63,12 @@ scCaT was built based on capsule network and transformer. It was trained on sing
 `./code/visualization.ipynb` includes the visualization of the primary capsules, the capsule outputs, and each of the capsule dimensions.  
 
 ## Data and Results contained in the folders
-As the size of models and figures are large,  we did not upload in this repo. If you are interested in our method, please download from google drive. scModel:https://drive.google.com/drive/folders/1QKS6s3lBgbheFMtpiI3wpF3LQnEOxvP-?usp=sharing. TransferModel: https://drive.google.com/drive/folders/1WVb_qvGlZf3r9Ug2H6EGmobayjacGTgr?usp=drive_link.  
-All the data can be access from the accession number stated in our paper.
+As the size of models and figures are large,  we did not upload in this repo. If you are interested in our method, please download from google drive (link below). All the data can be access from the accession number stated in our paper.
 
 `./biomarkers` contains the predicted results of the existing biomarkers and traditional machine learning models on scRNA-seq data.   
 `./data/dataBulk` contains the sepsis cohorts of microarray and bulk RNA-seq used in this study for the evaluation. The data can be downloaded from Gene Expression Omnibus (GEO) database.   
-`./data/dataSC` contains the raw data and the processed data of the single-cell RNA-seq data of sepsis. The preprocess data can be access through: https://drive.google.com/drive/folders/1mFuhzhLleHsGR6kBk4JZkgh9TGIB2QaJ?usp=drive_link.
-`modelsave` contains the model called trained on single-cell RNA-seq data and the model fine-tuned on bulk RNA data.
+`./data/dataSC` contains the raw data and the processed data of the single-cell RNA-seq data of sepsis. The preprocess data can be access through: https://drive.google.com/drive/folders/1mFuhzhLleHsGR6kBk4JZkgh9TGIB2QaJ?usp=drive_link.   
+`modelsave` contains the model called trained on single-cell RNA-seq data and the model fine-tuned on bulk RNA data.scModel:https://drive.google.com/drive/folders/1QKS6s3lBgbheFMtpiI3wpF3LQnEOxvP-?usp=sharing. TransferModel: https://drive.google.com/drive/folders/1WVb_qvGlZf3r9Ug2H6EGmobayjacGTgr?usp=drive_link.  
 
 
     
